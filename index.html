@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+<header>
+  <div class="a">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="contact.html">Contact Us</a> 
+  </nav>
+</div>
+  <h1>Lilac Beauty</h1>
+</header> 
+  <body>
+  <main>
+    <div class="slideshow-container">
+    <div class="mySlides">
+      <img src="images/lipsticks.jpg">
+      <div class="text">
+        <p>Exposure to lead from lipstick is mainly by swallowing,
+        such as after a consumer licks her lips, so we used the
+        same approach for cosmetic lip products that we use to
+        estimate exposure to lead from food.</p>
+      </div>
+    </div>
+    
+    <div class="mySlides" id="hide">
+      <img src="images/eye.jpg">
+      <div class="text">
+      <p>An eyeshadow palette offers a spectrum of shades,
+        usually within the same color group, or at least in
+        complementary shades. At one end of the spectrum will
+        be lighter shades</p>
+      </div>
+    </div>
+    
+    <div class="mySlides" id="hide">
+      <img src="images/foundation.jpg">
+      <div class="text">
+      <p>A seamless-finish foundation stick makes on-the-go 
+        application easy,while a liquid matte foundation 
+        delivers a flawless finish at first swipe.
+        If you need long-lasting wear,you’ll love the way 
+        our humidity-proof</p>
+      </div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+   
+</main>
+<footer>
+  <div>
+      <div>   
+          <h4>CONTACT US</h4>
+          <p>21,King Street East,<br> Downtown,ON,CA<br>270701</p>
+          <p>Email:lilacbeauty@gmail.com<br> Phone: (234)678-901</p>
+      </div>
+  </div>
+  <p id="copyright">copyright &copy;Lilac beauty</p>
+  </footer>
+  </body>
+  </html>
